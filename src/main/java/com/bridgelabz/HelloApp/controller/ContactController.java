@@ -48,4 +48,11 @@ public class ContactController {
             return ResponseEntity.internalServerError().body("{\"success\": false, \"message\": \"Failed to send email.\"}");
         }
     }
-}
+    @GetMapping
+    public void handleContact() {
+    for (int i=0;i<100;i++){
+        System.out.println("                 *                      ");
+    }
+    }
+
+    }
